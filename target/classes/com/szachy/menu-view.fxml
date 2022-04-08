@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<VBox alignment="CENTER" prefHeight="188.0" prefWidth="202.0" spacing="20.0" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.szachy.MenuController">
+    <padding>
+        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+    </padding>
+   <ImageView fitHeight="111.0" fitWidth="113.0" pickOnBounds="true" preserveRatio="true">
+      <image>
+         <Image url="@../figures/horse-black-head-shape-of-a-chess-piece.png" />
+      </image>
+   </ImageView>
+    <Button fx:id="button" onAction="#onPlayChessButtonClick" prefHeight="30.0" prefWidth="84.0" style="-fx-font-family: Serif;" text="Play Chess">
+      <font>
+         <Font name="System Bold Italic" size="13.0" />
+      </font></Button>
+</VBox>
